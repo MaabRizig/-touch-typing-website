@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="touchTypingCSS.css">
+	<link rel="stylesheet" type="text/css" href="fonts/popins-family/popinsfamily.css">
+	<link rel="stylesheet" type="text/css" href="fonts/black-to-black/blacktoblack.css">
+	<title>Touch Typing</title>
+</head>
+<body>
+	<header class="main-header">
+		<div class="part1">
+			<p class="title">Touch Typing</p>
+			<img src="images/keyboard(1).png">
+		</div>
+		<div class="part2">
+			<p>
+			 Help you become a professional typer.
+			</p>
+		</div>
+	</header>
+
+	<div class="main-content">
+		<div class="the-content">
+			<div class="typing-field">
+				<div class="text-fram">
+					<div id="text">
+					</div>
+				</div>
+					<input id="mainInput" disabled>
+					<div id="timer">1:00</div>	
+					<button id = "replay" onclick="replay()"></button>
+			</div>
+			<div id="error"></div>
+			<div class="result">
+				<table class="table1">
+					<tr>
+						<th>speed:</th>
+						<td></td>
+					</tr>
+					<tr>
+						<th>Accuracy:</th>
+						<td></td>
+					</tr>
+					<tr>
+						<th>Correct words:</th>
+						<td></td>
+					</tr>
+					<tr>
+						<th>Wrong words:</th>
+						<td></td>
+					</tr>
+				</table>
+				<table class="table2">
+					<caption>Misspelled letters :</caption>
+					<tr>
+					</tr>
+					<tr>
+					</tr>
+				</table>
+			</div>
+		</div>	
+		<aside class="side-bar">
+			<ul>
+				<a href=""><li class="aside-options">my account</li></a>
+				<a href=""><li class="aside-options">dash board</li></a>
+				<a><li class="aside-options" onclick="displayContact()">contact as</li></a>
+			</ul>
+		</aside>
+	</div>
+		
+	<footer class="main-footer">
+	</footer>
+	<!-- <div class="contact-background">
+		<div class="contact-block">
+			<div class="contact-header">
+				<canvas class="cross-cav" width="20px" height="20px"></canvas>	
+			</div>
+			<form>
+				<h4>your email:</h4>
+				<input type="email">
+				<h4> your message:</h4>
+				<input type="message" placeholder="type here">
+				<button name="send">send</button>
+			</form>
+		</div>
+	</div> -->
+
+	<script type="text/javascript" src="typingJs.js"></script>
+	<script type="text/javascript" src="pagejs.js"></script>
+</body>
+</html>
+
+
+
+
+
+
+
+
+			<!-- <div class="lined-background" style="background-color: rgb(46, 2, 73);top: 0;"></div>
+			<div class="lined-background" style="background-color: rgb(87, 10, 87);top:25%"></div>
+			<div class="lined-background" style="background-color: rgb(169, 16, 121);top:50%"></div>
+			<div class="lined-background" style="background-color: rgb(248, 6, 204);top:75%"></div> -->
